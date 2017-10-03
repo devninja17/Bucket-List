@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		029142A21F83F3E5004EBC50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029142A11F83F3E5004EBC50 /* AppDelegate.swift */; };
-		029142A41F83F3E5004EBC50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029142A31F83F3E5004EBC50 /* ViewController.swift */; };
 		029142A71F83F3E5004EBC50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029142A51F83F3E5004EBC50 /* Main.storyboard */; };
 		029142A91F83F3E5004EBC50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 029142A81F83F3E5004EBC50 /* Assets.xcassets */; };
 		029142AC1F83F3E5004EBC50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029142AA1F83F3E5004EBC50 /* LaunchScreen.storyboard */; };
+		029142B41F83F651004EBC50 /* BucketListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029142B31F83F651004EBC50 /* BucketListTableViewController.swift */; };
+		029142B61F83F687004EBC50 /* AddEditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029142B51F83F687004EBC50 /* AddEditTableViewController.swift */; };
+		029142B81F83F6C8004EBC50 /* AddEditTableViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029142B71F83F6C8004EBC50 /* AddEditTableViewControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0291429E1F83F3E5004EBC50 /* Bucket List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bucket List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		029142A11F83F3E5004EBC50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		029142A31F83F3E5004EBC50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		029142A61F83F3E5004EBC50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		029142A81F83F3E5004EBC50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		029142AB1F83F3E5004EBC50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		029142AD1F83F3E5004EBC50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		029142B31F83F651004EBC50 /* BucketListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListTableViewController.swift; sourceTree = "<group>"; };
+		029142B51F83F687004EBC50 /* AddEditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditTableViewController.swift; sourceTree = "<group>"; };
+		029142B71F83F6C8004EBC50 /* AddEditTableViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditTableViewControllerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				029142A11F83F3E5004EBC50 /* AppDelegate.swift */,
-				029142A31F83F3E5004EBC50 /* ViewController.swift */,
 				029142A51F83F3E5004EBC50 /* Main.storyboard */,
+				029142B31F83F651004EBC50 /* BucketListTableViewController.swift */,
+				029142B51F83F687004EBC50 /* AddEditTableViewController.swift */,
+				029142B71F83F6C8004EBC50 /* AddEditTableViewControllerDelegate.swift */,
 				029142A81F83F3E5004EBC50 /* Assets.xcassets */,
 				029142AA1F83F3E5004EBC50 /* LaunchScreen.storyboard */,
 				029142AD1F83F3E5004EBC50 /* Info.plist */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				029142A41F83F3E5004EBC50 /* ViewController.swift in Sources */,
+				029142B81F83F6C8004EBC50 /* AddEditTableViewControllerDelegate.swift in Sources */,
+				029142B61F83F687004EBC50 /* AddEditTableViewController.swift in Sources */,
 				029142A21F83F3E5004EBC50 /* AppDelegate.swift in Sources */,
+				029142B41F83F651004EBC50 /* BucketListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
